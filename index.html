@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergio Sánchez Castillo · Portafolio</title>
+  <meta name="description" content="Portafolio de Sergio Jesús Sánchez Castillo, estudiante de Ingeniería en Software.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a href="#inicio" class="logo">SS<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#design-system">Design System</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema claro/oscuro">
+          <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== INICIO ===== -->
+    <section id="inicio" class="hero" aria-label="Presentación">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow-note">Estudiante de Ingeniería en Software · 8vo semestre</p>
+          <h1>Sergio Jesús<br>Sánchez Castillo</h1>
+          <p class="hero-lede">
+            Construyo sistemas web completos, del backend a la interfaz. Trabajo con Django,
+            bases de datos relacionales y JavaScript, y me interesa entender cómo cada capa de
+            una aplicación se conecta con las demás.
+          </p>
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn-secondary">Contactar</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/avatar.png" alt="Fotografía de Sergio Jesús Sánchez Castillo" width="420" height="420">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MI ===== -->
+    <section id="sobre-mi" class="section" aria-labelledby="sobre-mi-title">
+      <div class="container section-grid">
+        <aside class="section-label">
+          <h2 id="sobre-mi-title">Sobre mí</h2>
+        </aside>
+        <div class="section-body">
+          <p>
+            Estudiante de Ingeniería en Software con conocimientos en desarrollo web, bases de
+            datos y programación. Tengo experiencia construyendo proyectos académicos completos
+            con Django, SQL y JavaScript, y complemento esa formación con experiencia en soporte
+            técnico: atención a usuarios, mantenimiento de equipos y resolución de problemas
+            informáticos comunes. Aprendo mejor construyendo sistemas de principio a fin en lugar
+            de ejercicios aislados.
+          </p>
+
+          <div class="about-columns">
+            <article>
+              <h3>Formación</h3>
+              <p>
+                Ingeniería en Software, 8vo semestre — Universidad Estatal de Milagro (UNEMI).
+              </p>
+            </article>
+            <article>
+              <h3>Áreas de interés</h3>
+              <p>
+                Desarrollo backend con Django, diseño de bases de datos relacionales
+                (PostgreSQL/MySQL) y procesamiento de imágenes aplicado a proyectos de salud.
+              </p>
+            </article>
+            <article>
+              <h3>Cómo trabajo</h3>
+              <p>
+                Pensamiento lógico, resolución de problemas y trabajo en equipo, con capacidad
+                de aprendizaje autónomo y adaptación a distintos contextos técnicos.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+      <div class="container section-grid">
+        <aside class="section-label">
+          <h2 id="skills-title">Skills</h2>
+          <p class="section-label-note">Tecnologías que domino o estoy aprendiendo actualmente.</p>
+        </aside>
+
+        <div class="section-body">
+          <div class="skills-grid">
+
+            <article class="skill-category">
+              <h3>Frontend</h3>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level" data-level="4" aria-label="Nivel 4 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level" data-level="4" aria-label="Nivel 4 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level" data-level="3" aria-label="Nivel 3 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skill-category">
+              <h3>Backend</h3>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level" data-level="3" aria-label="Nivel 3 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Django</span>
+                  <span class="skill-level" data-level="3" aria-label="Nivel 3 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skill-category">
+              <h3>Bases de datos</h3>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <span class="skill-name">PostgreSQL</span>
+                  <span class="skill-level" data-level="3" aria-label="Nivel 3 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-level" data-level="3" aria-label="Nivel 3 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="skill-category">
+              <h3>Herramientas</h3>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <span class="skill-name">Git &amp; GitHub</span>
+                  <span class="skill-level" data-level="4" aria-label="Nivel 4 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Soporte técnico</span>
+                  <span class="skill-level" data-level="4" aria-label="Nivel 4 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Office (Word/Excel/PPT)</span>
+                  <span class="skill-level" data-level="2" aria-label="Nivel 2 de 5">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </span>
+                </li>
+              </ul>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section id="proyectos" class="section" aria-labelledby="proyectos-title">
+      <div class="container section-grid">
+        <aside class="section-label">
+          <h2 id="proyectos-title">Proyectos destacados</h2>
+          <p class="section-label-note">Filtra por tecnología para explorar el trabajo.</p>
+        </aside>
+
+        <div class="section-body">
+          <!-- EDITAR: reemplaza descripciones, tecnologías y enlaces con los datos reales de cada proyecto -->
+          <div class="filter-bar" id="filterBar" role="group" aria-label="Filtrar proyectos por tecnología">
+            <button class="filter-btn is-active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="java">Java</button>
+          </div>
+
+          <div class="projects-grid" id="projectsGrid">
+
+            <article class="card project-card" data-tech="javascript">
+              <figure class="card-figure">
+                <img src="assets/project-simonstore.png" alt="Captura de SimonStore: buscador de tiendas y catálogo de tiendas populares" width="640" height="400" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3>SimonStore — Tienda Virtual</h3>
+                <p>
+                  Marketplace donde distintas tiendas pueden publicar sus productos y los usuarios
+                  buscarlas por nombre o categoría. Resuelve la necesidad de centralizar varios
+                  negocios pequeños en un solo catálogo con carrito de compras.
+                </p>
+                <ul class="tag-list">
+                  <li class="tag">JavaScript</li>
+                  <li class="tag">Django</li>
+                  <li class="tag">SQL</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="https://github.com/ssanchezc7/Tienda_virtual_SB" class="link-external" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i>Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card" data-tech="java">
+              <figure class="card-figure">
+                <img src="assets/project-saludtotal.png" alt="Captura del panel administrativo de SaludTotal con usuarios, grupos y módulos" width="640" height="400" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3>SaludTotal — Sistema de Gestión</h3>
+                <p>
+                  Panel administrativo para un centro de salud: gestión de usuarios, grupos,
+                  módulos y menús del sistema, con métricas de atenciones y consultas pendientes.
+                  Proyecto final de Programación Orientada a Objetos.
+                </p>
+                <ul class="tag-list">
+                  <li class="tag">Java</li>
+                  <li class="tag">POO</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="https://github.com/ssanchezc7/POO_proyecto_final_doctor" class="link-external" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i>Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card" data-tech="python">
+              <figure class="card-figure">
+                <img src="assets/project-anemia.png" alt="Captura del Sistema de Detección de Anemia con métricas de análisis realizados" width="640" height="400" loading="lazy">
+              </figure>
+              <div class="card-body">
+                <h3>Detector de Anemia</h3>
+                <p>
+                  Sistema inteligente que analiza imágenes de la conjuntiva palpebral para apoyar
+                  la detección temprana de anemia. Permite cargar imágenes, registrar pacientes y
+                  generar reportes de los análisis realizados.
+                </p>
+                <ul class="tag-list">
+                  <li class="tag">Python</li>
+                  <li class="tag">Procesamiento de imágenes</li>
+                </ul>
+                <div class="card-actions">
+                  <!-- EDITAR: agrega aquí el enlace real al repositorio del Detector de Anemia -->
+                  <a href="https://github.com/ssanchezc7/Sistema-de-Detecci-n-de-Anemia-.git" class="link-external" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i>Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <p class="empty-state" id="emptyState" hidden>No hay proyectos con esa tecnología todavía.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DESIGN SYSTEM ===== -->
+    <section id="design-system" class="section section-alt" aria-labelledby="ds-title">
+      <div class="container section-grid">
+        <aside class="section-label">
+          <h2 id="ds-title">Design System</h2>
+          <p class="section-label-note">Decisiones visuales y componentes reutilizados en todo el sitio.</p>
+        </aside>
+
+        <div class="section-body ds-body">
+
+          <article class="ds-block">
+            <h3>Colores</h3>
+            <div class="swatch-grid">
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-accent)"></span>
+                <span class="swatch-name">Accent</span>
+                <code>--color-accent</code>
+              </div>
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-bg)"></span>
+                <span class="swatch-name">Background</span>
+                <code>--color-bg</code>
+              </div>
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-surface)"></span>
+                <span class="swatch-name">Surface</span>
+                <code>--color-surface</code>
+              </div>
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-surface-alt)"></span>
+                <span class="swatch-name">Surface alt</span>
+                <code>--color-surface-alt</code>
+              </div>
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-text)"></span>
+                <span class="swatch-name">Text</span>
+                <code>--color-text</code>
+              </div>
+              <div class="swatch">
+                <span class="swatch-color" style="background:var(--color-text-muted)"></span>
+                <span class="swatch-name">Text muted</span>
+                <code>--color-text-muted</code>
+              </div>
+            </div>
+          </article>
+
+          <article class="ds-block">
+            <h3>Tipografía</h3>
+            <div class="type-scale">
+              <p class="type-sample type-h1">Aa — Encabezado h1</p>
+              <p class="type-sample type-h2">Aa — Encabezado h2</p>
+              <p class="type-sample type-h3">Aa — Encabezado h3</p>
+              <p class="type-sample type-body">Párrafo de cuerpo: texto de lectura estándar del sitio, usado en descripciones y contenido largo.</p>
+              <p class="type-sample type-muted">Texto secundario: para notas, metadatos y contenido de apoyo.</p>
+              <p class="type-sample"><a href="#design-system">Enlace de texto de ejemplo</a></p>
+            </div>
+          </article>
+
+          <article class="ds-block">
+            <h3>Espaciado</h3>
+            <div class="spacing-scale">
+              <div class="spacing-row"><span class="spacing-block" style="width:var(--space-sm)"></span><code>--space-sm · 0.5rem</code></div>
+              <div class="spacing-row"><span class="spacing-block" style="width:var(--space-md)"></span><code>--space-md · 1rem</code></div>
+              <div class="spacing-row"><span class="spacing-block" style="width:var(--space-lg)"></span><code>--space-lg · 2rem</code></div>
+              <div class="spacing-row"><span class="spacing-block" style="width:var(--space-xl)"></span><code>--space-xl · 3rem</code></div>
+            </div>
+          </article>
+
+          <article class="ds-block">
+            <h3>Componentes</h3>
+            <div class="component-showcase">
+
+              <div class="component-sample">
+                <button class="btn btn-primary">Botón primario</button>
+              </div>
+              <div class="component-sample">
+                <button class="btn btn-secondary">Botón secundario</button>
+              </div>
+              <div class="component-sample">
+                <span class="tag">Skill / Badge</span>
+              </div>
+              <div class="component-sample">
+                <label for="dsInput">Input</label>
+                <input type="text" id="dsInput" placeholder="Texto de ejemplo">
+              </div>
+              <div class="component-sample">
+                <label for="dsTextarea">Textarea</label>
+                <textarea id="dsTextarea" rows="2" placeholder="Mensaje de ejemplo"></textarea>
+              </div>
+              <div class="component-sample component-sample-wide">
+                <article class="card project-card-mini">
+                  <div class="card-body">
+                    <h3>Card de proyecto</h3>
+                    <p>Componente reutilizado en la sección de proyectos.</p>
+                    <ul class="tag-list"><li class="tag">Ejemplo</li></ul>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="section" aria-labelledby="contacto-title">
+      <div class="container section-grid">
+        <aside class="section-label">
+          <h2 id="contacto-title">Contacto</h2>
+          <p class="section-label-note">¿Tienes un proyecto en mente o una oportunidad? Escríbeme.</p>
+        </aside>
+
+        <div class="section-body contact-grid">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <address class="contact-info">
+            <p><span class="contact-label">Email</span><a href="mailto:jesussanchez22001@gmail.com">jesussanchez22001@gmail.com</a></p>
+            <p><span class="contact-label">GitHub</span><a href="https://github.com/ssanchezc7" target="_blank" rel="noopener">github.com/ssanchezc7</a></p>
+            <p><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/jesús-sanchez-145b8639a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">linkedin.com/in/jesús-sanchez-145b8639a</a></p>
+            
+          </address>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bar">
+      <p>© 2026 Sergio Jesús Sánchez Castillo.</p>
+      <button class="back-to-top" id="backToTop" type="button" aria-label="Volver al inicio" hidden>↑ Arriba</button>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
