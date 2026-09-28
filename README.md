@@ -3,10 +3,7 @@
 Portafolio personal e interactivo desarrollado con HTML5, CSS3 y JavaScript puro,
 como parte de la tarea *Portafolio Web Profesional Interactivo* (UNEMI).
 
-> **Nota:** este proyecto se entregó con contenido de ejemplo para que sirva como
-> plantilla de partida. Antes de publicarlo, edita los textos marcados con
-> `<!-- EDITAR -->` en `index.html` (secciones Sobre mí, Skills, Proyectos y
-> Contacto) con tu información real.
+
 
 ## Tecnologías utilizadas
 
