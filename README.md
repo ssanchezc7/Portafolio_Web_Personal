@@ -67,7 +67,7 @@ python -m http.server 8000
 
 ## Capturas del resultado
 
-<!-- EDITAR: agrega aquí capturas de pantalla del sitio ya publicado -->
+![Vista principal del portafolio](assets/imagen%20final.png)
 
 ## Autor
 
